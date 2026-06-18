@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.env.*
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project outputs (generated C++ code, traces, etc.)
+output/
+traces/
+*.jsonl
+
+# Data files (too large for git)
+data/
+ref/
+
+# Qdrant local data
+.qdrant_data/
+
+# Large mesh/data files in example projects
+*.msh
+*.vtk
+*.dat
+!project/*/code/input.dat
+
+# Fortran build artifacts
+*.o
+*.mod
+*_bin
+residual.txt
+Cp_*.txt
+
+# Screenshots source (already copied to docs/images/)
+github/
+
+# Source code (private)
+f2cpp/
+
+# Example project files
+project/
